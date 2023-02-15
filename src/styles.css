@@ -22,8 +22,8 @@ a {
   width: 100%;
   z-index: 10;
 }
-.hello{
-    color:#5271ff;
+.hello {
+  color: #5271ff;
 }
 .list {
   display: flex;
@@ -39,7 +39,6 @@ a {
   font-family: Kanit;
   margin-left: 5%;
 }
-
 
 li:hover {
   color: #7d7e7c;
@@ -117,7 +116,7 @@ button:hover {
   width: 80%;
   height: 30%;
   margin: 5%;
-  margin-top:-2%;
+  margin-top: -2%;
   text-align: center;
   color: #fff;
   font-family: Kanit;
@@ -195,7 +194,7 @@ button:hover {
   font-weight: bold;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   body {
     max-width: 100vw;
     max-height: 100vh;
@@ -241,6 +240,50 @@ button:hover {
 
   .listProjects {
     display: none;
+  }
+
+  .aboutMe {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #1a1919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 200%;
+  }
+
+  .meusProjetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagem {
+    border-radius: 50%;
+    filter: grayscale(0);
+  }
+
+  .projeto1,
+  .projeto2,
+  .projeto3,
+  .projeto4 {
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+  }
+  .aditional-info {
+    margin-top: 5%;
+  }
+  .joicedoll {
+    font-size: 20%;
+    margin-left: 10%;
+  }
+  .nav-content {
+    position: fixed;
+    z-index: 10;
   }
 }
 
